@@ -1,0 +1,35 @@
+:root {
+    font-size: 10px;
+}
+body {
+    margin:0;
+    color:black;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+header {
+    padding-inline: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    ul {
+        li {
+            display: inline;
+            a {
+                color:black;
+                font-weight: 300;
+                text-decoration: none;
+            }
+            & + li {
+                margin-left: 30px;
+            }
+        }
+    }
+}
